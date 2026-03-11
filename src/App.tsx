@@ -70,16 +70,6 @@ function App() {
                   >
                     {expandedId === site.id ? 'Show Less' : 'Show More Info'}
                   </button>
-                  {expandedId === site.id && (
-                    <a 
-                      href={`https://www.booking.com/searchresults.html?ss=${encodeURIComponent(site.city + ' Sri Lanka')}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="book-hotel-btn"
-                    >
-                      Book Hotel
-                    </a>
-                  )}
                 </div>
 
                 {expandedId === site.id && (

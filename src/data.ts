@@ -3,10 +3,13 @@ import aukanaImg from './assets/img/Aukana Buddha Statue.jpg'
 import dambullaImg from './assets/img/Dambulla Golden Cave Temple.jpg'
 import isurumuniyaImg from './assets/img/Isurumuniya Temple.jpg'
 import mihintaleImg from './assets/img/Mihintale.jpg'
-import polonnaruwaImg from './assets/img/Polonnaruwa Vatadage.jpg'
-import ruwanwelisayaImg from './assets/img/Ruwanwelisaya Stupa.jpg'
 import sripadaImg from './assets/img/Sri Pada (Adam\'s Peak).jpg'
 import yapahuwaImg from './assets/img/Yapahuwa Rock Fortress.jpg'
+import ruwanwelisayaImg from './assets/img/Ruwanwelisaya Stupa.jpg'
+import polonnaruwaImg from './assets/img/Polonnaruwa Vatadage.jpg'
+import toothRelicImg from './assets/img/Temple of the Tooth Relic.webp'
+import galleFortImg from './assets/img/Galle Fort.jpg'
+import nineArchImg from './assets/img/Nine Arch Bridge.jpg'
 
 export interface HistoricalSite {
   id: number;
@@ -49,7 +52,7 @@ export const historicalSites: HistoricalSite[] = [
     howToVisit: "3-hour scenic train ride from Colombo. The temple is located in Kandy town, adjacent to the Kandy Lake.",
     whySpecial: "The most sacred Buddhist temple in Sri Lanka. It represents the last capital of the Sri Lankan kings.",
     latestNews: "Preparations for the annual Esala Perahera festival are underway, expected to draw record crowds this year.",
-    imageUrl: "https://wandertropics.com/wp-content/uploads/2025/03/Temple-of-the-Tooth-Relic.jpg"
+    imageUrl: toothRelicImg
   },
   {
     id: 3,
@@ -60,7 +63,7 @@ export const historicalSites: HistoricalSite[] = [
     howToVisit: "2 hours from Colombo via Southern Expressway. Scenic coastal trains also run daily from Colombo Fort.",
     whySpecial: "The best-preserved colonial sea fortress in Asia. A unique blend of European architecture and South Asian traditions.",
     latestNews: "Several boutique hotels within the fort have received international heritage conservation awards.",
-    imageUrl: "https://do6raq9h04ex.cloudfront.net/sites/8/2021/07/galle-fort-1050x700-1.jpg"
+    imageUrl: galleFortImg
   },
   {
     id: 4,
@@ -93,7 +96,7 @@ export const historicalSites: HistoricalSite[] = [
     howToVisit: "Take the 'Main Line' train to Ella. Walk 30 minutes through the jungle or take a tuk-tuk from Ella town.",
     whySpecial: "Built entirely of bricks and cement without a single piece of steel. It offers one of the most iconic views in Sri Lanka.",
     latestNews: "The 'Ella Odyssey' luxury train now makes a special 10-minute stop on the bridge for passengers to take photos.",
-    imageUrl: "https://flyingravana.eme-devops.com/2019/01/nine-arch-2-5.jpg"
+    imageUrl: nineArchImg
   },
   {
     id: 7,

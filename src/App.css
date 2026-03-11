@@ -141,7 +141,7 @@ body {
   flex-wrap: wrap;
 }
 
-.show-more-btn, .book-hotel-btn {
+.show-more-btn {
   padding: 8px 16px;
   border-radius: 20px;
   cursor: pointer;
@@ -156,21 +156,6 @@ body {
 .show-more-btn {
   background-color: var(--primary-color);
   color: white;
-}
-
-.book-hotel-btn {
-  background-color: #003580; /* Booking.com blue */
-  color: white;
-}
-
-.show-more-btn:hover {
-  background-color: var(--secondary-color);
-  transform: translateY(-2px);
-}
-
-.book-hotel-btn:hover {
-  background-color: #00224f;
-  transform: translateY(-2px);
 }
 
 .extra-info {
