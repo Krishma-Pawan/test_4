@@ -1,0 +1,11 @@
+i need  to create aeques simple small application 
+
+Requestments :
+   
+1. application making about Historical Sites of Sri Lanka Guide
+A mini information page for historical sites in different cities.
+
+2.add in homepage searchbar to search the cities 
+3.add all districts in srilanka in selecting box
+ 
+show more information aboout the place (eg:how to visit,why speacial , latest news 
