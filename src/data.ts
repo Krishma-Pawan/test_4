@@ -1,15 +1,18 @@
-import sigiriyaImg from './assets/sigiriya.jpg'
-import aukanaImg from './assets/img/Aukana Buddha Statue.jpg'
-import dambullaImg from './assets/img/Dambulla Golden Cave Temple.jpg'
-import isurumuniyaImg from './assets/img/Isurumuniya Temple.jpg'
-import mihintaleImg from './assets/img/Mihintale.jpg'
-import sripadaImg from './assets/img/Sri Pada (Adam\'s Peak).jpg'
-import yapahuwaImg from './assets/img/Yapahuwa Rock Fortress.jpg'
-import ruwanwelisayaImg from './assets/img/Ruwanwelisaya Stupa.jpg'
-import polonnaruwaImg from './assets/img/Polonnaruwa Vatadage.jpg'
-import toothRelicImg from './assets/img/Temple of the Tooth Relic.webp'
-import galleFortImg from './assets/img/Galle Fort.jpg'
-import nineArchImg from './assets/img/Nine Arch Bridge.jpg'
+import sigiriyaImg from './assets/hi/sigiriya.jpg'
+import aukanaImg from './assets/hi/Aukana Buddha Statue.jpg'
+import dambullaImg from './assets/hi/Dambulla Golden Cave Temple.jpg'
+import isurumuniyaImg from './assets/hi/Isurumuniya Temple.jpg'
+import mihintaleImg from './assets/hi/Mihintale.jpg'
+import sripadaImg from './assets/hi/Sri Pada (Adam\'s Peak).jpg'
+import yapahuwaImg from './assets/hi/Yapahuwa Rock Fortress.jpg'
+import ruwanwelisayaImg from './assets/hi/Ruwanwelisaya Stupa.jpg'
+import polonnaruwaImg from './assets/hi/Polonnaruwa Vatadage.jpg'
+import toothRelicImg from './assets/hi/Temple of the Tooth Relic.webp'
+import galleFortImg from './assets/hi/Galle Fort.jpg'
+import nineArchImg from './assets/hi/Nine Arch Bridge.jpg'
+import buduruvagalaImg from './assets/hi/Buduruvagala.jpg'
+import lankatilakaImg from './assets/hi/Lankatilaka Vihara.jpg'
+import embekkaImg from './assets/hi/Embekka Devalaya.jpg'
 
 export interface HistoricalSite {
   id: number;
@@ -163,5 +166,39 @@ export const historicalSites: HistoricalSite[] = [
     whySpecial: "Famous for its rock carvings that blend religious and secular themes, unlike most other ancient Sri Lankan temples.",
     latestNews: "A renovated museum at the temple site now provides more context on the secular lifestyle of the ancient royalty.",
     imageUrl: isurumuniyaImg
+  },
+  {
+    id: 13,
+    name: "Buduruvagala",
+    city: "Wellawaya",
+    district: "Moneragala",
+    description: "An ancient Buddhist temple with seven colossal rock-cut statues, including the tallest Buddha statue in Sri Lanka.",
+    howToVisit: "5km south of Wellawaya. Best reached by private transport. A short walk from the parking area leads to the statues.",
+    whySpecial: "The central Buddha statue is 51 feet tall. It is a masterpiece of Mahayana Buddhist art in Sri Lanka.",
+    latestNews: "The access road to the site has been recently paved, making it much easier for tourists to visit during the rainy season.",
+    imageUrl: buduruvagalaImg
+  },
+  {
+    id: 14,
+    name: "Lankatilaka Vihara",
+    city: "Gampola",
+    district: "Kandy",
+    description: "A magnificent 14th-century temple built on a natural rock, showcasing unique Gampola-era architecture.",
+    howToVisit: "15km from Kandy city. Can be reached via the Peradeniya-Dawulagala road. Often visited along with Gadaladeniya and Embekka.",
+    whySpecial: "Combines Buddhist and Hindu architectural elements. The temple's white structure against the green hills is breathtaking.",
+    latestNews: "The temple's ancient wood carvings are undergoing a delicate preservation process by the Department of Archaeology.",
+    imageUrl: lankatilakaImg
+  },
+  {
+    id: 15,
+    name: "Embekka Devalaya",
+    city: "Gampola",
+    district: "Kandy",
+    description: "A 14th-century temple world-renowned for its exquisite and intricate wood carvings.",
+    howToVisit: "Located near Gampola. Can be visited by bus or tuk-tuk from Kandy. It's part of the 'Three Temple Loop'.",
+    whySpecial: "The carvings on the wooden pillars of the 'Drummers' Hall' are considered the finest examples of wood art in Sri Lanka.",
+    latestNews: "A new visitor center has been opened to explain the complex symbolism found in the wooden carvings.",
+    imageUrl: embekkaImg
   }
 ];
+

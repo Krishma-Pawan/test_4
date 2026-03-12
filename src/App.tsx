@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react'
 import { districts, historicalSites, HistoricalSite } from './data'
-import headerImg from './assets/header.jpg'
+import headerImg from './assets/hi/header.jpg'
 import './App.css'
 
 function App() {
